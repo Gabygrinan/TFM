@@ -1,0 +1,658 @@
+2026-02-24 16:04:35 [INFO] ============================================================
+2026-02-24 16:04:35 [INFO] CambioCUP Historical Exchange Rate Extractor
+2026-02-24 16:04:35 [INFO] ============================================================
+2026-02-24 16:04:35 [INFO] Coins: CUP, MLC, CLASICA, ETECSA, TROPICAL
+2026-02-24 16:04:35 [INFO] Output directory: /Users/danielagrinan/Desktop/app/extractor/output
+2026-02-24 16:04:35 [INFO] Include Parquet: True
+2026-02-24 16:04:35 [INFO] 
+2026-02-24 16:04:35 [INFO] ----------------------------------------
+2026-02-24 16:04:35 [INFO] Processing: CUP
+2026-02-24 16:04:35 [INFO] ----------------------------------------
+2026-02-24 16:04:35 [INFO] Fetching history for CUP...
+2026-02-24 16:04:35 [DEBUG]   Request: coin=CUP, days=100000 (attempt 1)
+2026-02-24 16:04:36 [DEBUG]   Got 1000 records
+2026-02-24 16:04:36 [INFO]   Page 1: got 1000 records, 999 new (total: 999)
+2026-02-24 16:04:36 [DEBUG]   Last record at 2023-11-15 21:35:01+00:00, ~831.7 days ago. Next window: days=832
+2026-02-24 16:04:37 [DEBUG]   Request: coin=CUP, days=832 (attempt 1)
+2026-02-24 16:04:37 [DEBUG]   Got 1000 records
+2026-02-24 16:04:37 [INFO]   Page 2: got 1000 records, 921 new (total: 1920)
+2026-02-24 16:04:37 [DEBUG]   Last record at 2023-11-19 02:40:02+00:00, ~828.5 days ago. Next window: days=829
+2026-02-24 16:04:38 [DEBUG]   Request: coin=CUP, days=829 (attempt 1)
+2026-02-24 16:04:39 [DEBUG]   Got 1000 records
+2026-02-24 16:04:39 [INFO]   Page 3: got 1000 records, 860 new (total: 2780)
+2026-02-24 16:04:39 [DEBUG]   Last record at 2023-11-22 02:35:02+00:00, ~825.5 days ago. Next window: days=826
+2026-02-24 16:04:40 [DEBUG]   Request: coin=CUP, days=826 (attempt 1)
+2026-02-24 16:04:40 [DEBUG]   Got 1000 records
+2026-02-24 16:04:40 [INFO]   Page 4: got 1000 records, 861 new (total: 3641)
+2026-02-24 16:04:40 [DEBUG]   Last record at 2024-01-01 21:30:05+00:00, ~784.7 days ago. Next window: days=785
+2026-02-24 16:04:41 [DEBUG]   Request: coin=CUP, days=785 (attempt 1)
+2026-02-24 16:04:42 [DEBUG]   Got 1000 records
+2026-02-24 16:04:42 [INFO]   Page 5: got 1000 records, 989 new (total: 4630)
+2026-02-24 16:04:42 [DEBUG]   Last record at 2024-01-27 08:00:06+00:00, ~759.3 days ago. Next window: days=759
+2026-02-24 16:04:43 [DEBUG]   Request: coin=CUP, days=759 (attempt 1)
+2026-02-24 16:04:43 [DEBUG]   Got 1000 records
+2026-02-24 16:04:43 [INFO]   Page 6: got 1000 records, 999 new (total: 5629)
+2026-02-24 16:04:43 [DEBUG]   Last record at 2024-02-18 12:30:03+00:00, ~737.1 days ago. Next window: days=737
+2026-02-24 16:04:44 [DEBUG]   Request: coin=CUP, days=737 (attempt 1)
+2026-02-24 16:04:44 [DEBUG]   Got 1000 records
+2026-02-24 16:04:44 [INFO]   Page 7: got 1000 records, 1000 new (total: 6629)
+2026-02-24 16:04:44 [DEBUG]   Last record at 2024-03-10 11:00:02+00:00, ~716.2 days ago. Next window: days=716
+2026-02-24 16:04:45 [DEBUG]   Request: coin=CUP, days=716 (attempt 1)
+2026-02-24 16:04:46 [DEBUG]   Got 1000 records
+2026-02-24 16:04:46 [INFO]   Page 8: got 1000 records, 1000 new (total: 7629)
+2026-02-24 16:04:46 [DEBUG]   Last record at 2024-03-31 11:00:03+00:00, ~695.2 days ago. Next window: days=695
+2026-02-24 16:04:47 [DEBUG]   Request: coin=CUP, days=695 (attempt 1)
+2026-02-24 16:04:47 [DEBUG]   Got 1000 records
+2026-02-24 16:04:47 [INFO]   Page 9: got 1000 records, 1000 new (total: 8629)
+2026-02-24 16:04:47 [DEBUG]   Last record at 2024-04-21 11:00:03+00:00, ~674.2 days ago. Next window: days=674
+2026-02-24 16:04:48 [DEBUG]   Request: coin=CUP, days=674 (attempt 1)
+2026-02-24 16:04:49 [DEBUG]   Got 1000 records
+2026-02-24 16:04:49 [INFO]   Page 10: got 1000 records, 1000 new (total: 9629)
+2026-02-24 16:04:49 [DEBUG]   Last record at 2024-05-12 11:00:02+00:00, ~653.2 days ago. Next window: days=653
+2026-02-24 16:04:50 [DEBUG]   Request: coin=CUP, days=653 (attempt 1)
+2026-02-24 16:04:50 [DEBUG]   Got 1000 records
+2026-02-24 16:04:50 [INFO]   Page 11: got 1000 records, 1000 new (total: 10629)
+2026-02-24 16:04:50 [DEBUG]   Last record at 2024-06-02 12:00:03+00:00, ~632.1 days ago. Next window: days=632
+2026-02-24 16:04:51 [DEBUG]   Request: coin=CUP, days=632 (attempt 1)
+2026-02-24 16:04:53 [DEBUG]   Got 1000 records
+2026-02-24 16:04:53 [INFO]   Page 12: got 1000 records, 1000 new (total: 11629)
+2026-02-24 16:04:53 [DEBUG]   Last record at 2024-06-23 13:00:03+00:00, ~611.1 days ago. Next window: days=611
+2026-02-24 16:04:54 [DEBUG]   Request: coin=CUP, days=611 (attempt 1)
+2026-02-24 16:04:54 [DEBUG]   Got 1000 records
+2026-02-24 16:04:54 [INFO]   Page 13: got 1000 records, 1000 new (total: 12629)
+2026-02-24 16:04:54 [DEBUG]   Last record at 2024-07-14 11:30:03+00:00, ~590.1 days ago. Next window: days=590
+2026-02-24 16:04:55 [DEBUG]   Request: coin=CUP, days=590 (attempt 1)
+2026-02-24 16:04:56 [DEBUG]   Got 1000 records
+2026-02-24 16:04:56 [INFO]   Page 14: got 1000 records, 1000 new (total: 13629)
+2026-02-24 16:04:56 [DEBUG]   Last record at 2024-08-04 11:00:04+00:00, ~569.2 days ago. Next window: days=569
+2026-02-24 16:04:57 [DEBUG]   Request: coin=CUP, days=569 (attempt 1)
+2026-02-24 16:04:57 [DEBUG]   Got 1000 records
+2026-02-24 16:04:57 [INFO]   Page 15: got 1000 records, 1000 new (total: 14629)
+2026-02-24 16:04:57 [DEBUG]   Last record at 2024-08-25 11:00:05+00:00, ~548.2 days ago. Next window: days=548
+2026-02-24 16:04:58 [DEBUG]   Request: coin=CUP, days=548 (attempt 1)
+2026-02-24 16:04:59 [DEBUG]   Got 1000 records
+2026-02-24 16:04:59 [INFO]   Page 16: got 1000 records, 1000 new (total: 15629)
+2026-02-24 16:04:59 [DEBUG]   Last record at 2024-09-15 11:00:05+00:00, ~527.2 days ago. Next window: days=527
+2026-02-24 16:05:00 [DEBUG]   Request: coin=CUP, days=527 (attempt 1)
+2026-02-24 16:05:00 [DEBUG]   Got 1000 records
+2026-02-24 16:05:00 [INFO]   Page 17: got 1000 records, 1000 new (total: 16629)
+2026-02-24 16:05:00 [DEBUG]   Last record at 2024-10-06 11:00:04+00:00, ~506.2 days ago. Next window: days=506
+2026-02-24 16:05:01 [DEBUG]   Request: coin=CUP, days=506 (attempt 1)
+2026-02-24 16:05:02 [DEBUG]   Got 1000 records
+2026-02-24 16:05:02 [INFO]   Page 18: got 1000 records, 1000 new (total: 17629)
+2026-02-24 16:05:02 [DEBUG]   Last record at 2024-10-27 11:00:05+00:00, ~485.2 days ago. Next window: days=485
+2026-02-24 16:05:03 [DEBUG]   Request: coin=CUP, days=485 (attempt 1)
+2026-02-24 16:05:03 [DEBUG]   Got 1000 records
+2026-02-24 16:05:03 [INFO]   Page 19: got 1000 records, 1000 new (total: 18629)
+2026-02-24 16:05:03 [DEBUG]   Last record at 2024-11-17 11:00:05+00:00, ~464.2 days ago. Next window: days=464
+2026-02-24 16:05:04 [DEBUG]   Request: coin=CUP, days=464 (attempt 1)
+2026-02-24 16:05:04 [DEBUG]   Got 1000 records
+2026-02-24 16:05:04 [INFO]   Page 20: got 1000 records, 1000 new (total: 19629)
+2026-02-24 16:05:04 [DEBUG]   Last record at 2024-12-08 11:00:04+00:00, ~443.2 days ago. Next window: days=443
+2026-02-24 16:05:05 [DEBUG]   Request: coin=CUP, days=443 (attempt 1)
+2026-02-24 16:05:06 [DEBUG]   Got 1000 records
+2026-02-24 16:05:06 [INFO]   Page 21: got 1000 records, 1000 new (total: 20629)
+2026-02-24 16:05:06 [DEBUG]   Last record at 2024-12-29 11:00:04+00:00, ~422.2 days ago. Next window: days=422
+2026-02-24 16:05:07 [DEBUG]   Request: coin=CUP, days=422 (attempt 1)
+2026-02-24 16:05:08 [DEBUG]   Got 1000 records
+2026-02-24 16:05:08 [INFO]   Page 22: got 1000 records, 1000 new (total: 21629)
+2026-02-24 16:05:08 [DEBUG]   Last record at 2025-01-19 11:00:04+00:00, ~401.2 days ago. Next window: days=401
+2026-02-24 16:05:09 [DEBUG]   Request: coin=CUP, days=401 (attempt 1)
+2026-02-24 16:05:09 [DEBUG]   Got 1000 records
+2026-02-24 16:05:09 [INFO]   Page 23: got 1000 records, 1000 new (total: 22629)
+2026-02-24 16:05:09 [DEBUG]   Last record at 2025-02-09 11:00:05+00:00, ~380.2 days ago. Next window: days=380
+2026-02-24 16:05:10 [DEBUG]   Request: coin=CUP, days=380 (attempt 1)
+2026-02-24 16:05:11 [DEBUG]   Got 1000 records
+2026-02-24 16:05:11 [INFO]   Page 24: got 1000 records, 1000 new (total: 23629)
+2026-02-24 16:05:11 [DEBUG]   Last record at 2025-03-02 11:00:06+00:00, ~359.2 days ago. Next window: days=359
+2026-02-24 16:05:12 [DEBUG]   Request: coin=CUP, days=359 (attempt 1)
+2026-02-24 16:05:12 [DEBUG]   Got 1000 records
+2026-02-24 16:05:12 [INFO]   Page 25: got 1000 records, 1000 new (total: 24629)
+2026-02-24 16:05:12 [DEBUG]   Last record at 2025-03-23 11:30:05+00:00, ~338.1 days ago. Next window: days=338
+2026-02-24 16:05:13 [DEBUG]   Request: coin=CUP, days=338 (attempt 1)
+2026-02-24 16:05:13 [DEBUG]   Got 1000 records
+2026-02-24 16:05:13 [INFO]   Page 26: got 1000 records, 1000 new (total: 25629)
+2026-02-24 16:05:13 [DEBUG]   Last record at 2025-04-13 12:00:05+00:00, ~317.1 days ago. Next window: days=317
+2026-02-24 16:05:14 [DEBUG]   Request: coin=CUP, days=317 (attempt 1)
+2026-02-24 16:05:15 [DEBUG]   Got 1000 records
+2026-02-24 16:05:15 [INFO]   Page 27: got 1000 records, 1000 new (total: 26629)
+2026-02-24 16:05:15 [DEBUG]   Last record at 2025-05-04 11:00:06+00:00, ~296.2 days ago. Next window: days=296
+2026-02-24 16:05:16 [DEBUG]   Request: coin=CUP, days=296 (attempt 1)
+2026-02-24 16:05:16 [DEBUG]   Got 1000 records
+2026-02-24 16:05:16 [INFO]   Page 28: got 1000 records, 1000 new (total: 27629)
+2026-02-24 16:05:16 [DEBUG]   Last record at 2025-05-25 15:30:01+00:00, ~275.0 days ago. Next window: days=275
+2026-02-24 16:05:17 [DEBUG]   Request: coin=CUP, days=275 (attempt 1)
+2026-02-24 16:05:18 [DEBUG]   Got 1000 records
+2026-02-24 16:05:18 [INFO]   Page 29: got 1000 records, 999 new (total: 28628)
+2026-02-24 16:05:18 [DEBUG]   Last record at 2025-06-15 13:00:02+00:00, ~254.1 days ago. Next window: days=254
+2026-02-24 16:05:19 [DEBUG]   Request: coin=CUP, days=254 (attempt 1)
+2026-02-24 16:05:19 [DEBUG]   Got 1000 records
+2026-02-24 16:05:19 [INFO]   Page 30: got 1000 records, 1000 new (total: 29628)
+2026-02-24 16:05:19 [DEBUG]   Last record at 2025-07-06 11:30:02+00:00, ~233.1 days ago. Next window: days=233
+2026-02-24 16:05:20 [DEBUG]   Request: coin=CUP, days=233 (attempt 1)
+2026-02-24 16:05:21 [DEBUG]   Got 1000 records
+2026-02-24 16:05:21 [INFO]   Page 31: got 1000 records, 1000 new (total: 30628)
+2026-02-24 16:05:21 [DEBUG]   Last record at 2025-07-27 10:00:06+00:00, ~212.2 days ago. Next window: days=212
+2026-02-24 16:05:22 [DEBUG]   Request: coin=CUP, days=212 (attempt 1)
+2026-02-24 16:05:22 [DEBUG]   Got 1000 records
+2026-02-24 16:05:22 [INFO]   Page 32: got 1000 records, 1000 new (total: 31628)
+2026-02-24 16:05:22 [DEBUG]   Last record at 2025-08-17 13:30:06+00:00, ~191.1 days ago. Next window: days=191
+2026-02-24 16:05:23 [DEBUG]   Request: coin=CUP, days=191 (attempt 1)
+2026-02-24 16:05:23 [DEBUG]   Got 1000 records
+2026-02-24 16:05:23 [INFO]   Page 33: got 1000 records, 1000 new (total: 32628)
+2026-02-24 16:05:23 [DEBUG]   Last record at 2025-09-07 18:30:08+00:00, ~169.9 days ago. Next window: days=170
+2026-02-24 16:05:24 [DEBUG]   Request: coin=CUP, days=170 (attempt 1)
+2026-02-24 16:05:25 [DEBUG]   Got 1000 records
+2026-02-24 16:05:25 [INFO]   Page 34: got 1000 records, 993 new (total: 33621)
+2026-02-24 16:05:25 [DEBUG]   Last record at 2025-09-28 22:30:08+00:00, ~148.7 days ago. Next window: days=149
+2026-02-24 16:05:26 [DEBUG]   Request: coin=CUP, days=149 (attempt 1)
+2026-02-24 16:05:27 [DEBUG]   Got 1000 records
+2026-02-24 16:05:27 [INFO]   Page 35: got 1000 records, 986 new (total: 34607)
+2026-02-24 16:05:27 [DEBUG]   Last record at 2025-10-19 19:00:07+00:00, ~127.8 days ago. Next window: days=128
+2026-02-24 16:05:28 [DEBUG]   Request: coin=CUP, days=128 (attempt 1)
+2026-02-24 16:05:28 [DEBUG]   Got 1000 records
+2026-02-24 16:05:28 [INFO]   Page 36: got 1000 records, 992 new (total: 35599)
+2026-02-24 16:05:28 [DEBUG]   Last record at 2025-11-09 14:30:06+00:00, ~107.0 days ago. Next window: days=107
+2026-02-24 16:05:29 [DEBUG]   Request: coin=CUP, days=107 (attempt 1)
+2026-02-24 16:05:29 [DEBUG]   Got 1000 records
+2026-02-24 16:05:29 [INFO]   Page 37: got 1000 records, 1000 new (total: 36599)
+2026-02-24 16:05:29 [DEBUG]   Last record at 2025-11-23 04:10:06+00:00, ~93.5 days ago. Next window: days=93
+2026-02-24 16:05:30 [DEBUG]   Request: coin=CUP, days=93 (attempt 1)
+2026-02-24 16:05:31 [DEBUG]   Got 1000 records
+2026-02-24 16:05:31 [INFO]   Page 38: got 1000 records, 1000 new (total: 37599)
+2026-02-24 16:05:31 [DEBUG]   Last record at 2025-11-30 21:40:07+00:00, ~85.7 days ago. Next window: days=86
+2026-02-24 16:05:32 [DEBUG]   Request: coin=CUP, days=86 (attempt 1)
+2026-02-24 16:05:32 [DEBUG]   Got 1000 records
+2026-02-24 16:05:32 [INFO]   Page 39: got 1000 records, 961 new (total: 38560)
+2026-02-24 16:05:32 [DEBUG]   Last record at 2025-12-07 19:10:08+00:00, ~78.8 days ago. Next window: days=79
+2026-02-24 16:05:33 [DEBUG]   Request: coin=CUP, days=79 (attempt 1)
+2026-02-24 16:05:34 [DEBUG]   Got 1000 records
+2026-02-24 16:05:34 [INFO]   Page 40: got 1000 records, 976 new (total: 39536)
+2026-02-24 16:05:34 [DEBUG]   Last record at 2025-12-14 16:30:07+00:00, ~71.9 days ago. Next window: days=72
+2026-02-24 16:05:35 [DEBUG]   Request: coin=CUP, days=72 (attempt 1)
+2026-02-24 16:05:35 [DEBUG]   Got 1000 records
+2026-02-24 16:05:35 [INFO]   Page 41: got 1000 records, 991 new (total: 40527)
+2026-02-24 16:05:35 [DEBUG]   Last record at 2025-12-21 15:00:10+00:00, ~65.0 days ago. Next window: days=65
+2026-02-24 16:05:36 [DEBUG]   Request: coin=CUP, days=65 (attempt 1)
+2026-02-24 16:05:37 [DEBUG]   Got 1000 records
+2026-02-24 16:05:37 [INFO]   Page 42: got 1000 records, 1000 new (total: 41527)
+2026-02-24 16:05:37 [DEBUG]   Last record at 2025-12-28 14:50:07+00:00, ~58.0 days ago. Next window: days=58
+2026-02-24 16:05:38 [DEBUG]   Request: coin=CUP, days=58 (attempt 1)
+2026-02-24 16:05:38 [DEBUG]   Got 1000 records
+2026-02-24 16:05:38 [INFO]   Page 43: got 1000 records, 1000 new (total: 42527)
+2026-02-24 16:05:38 [DEBUG]   Last record at 2026-01-04 22:40:08+00:00, ~50.7 days ago. Next window: days=51
+2026-02-24 16:05:39 [DEBUG]   Request: coin=CUP, days=51 (attempt 1)
+2026-02-24 16:05:40 [DEBUG]   Got 1000 records
+2026-02-24 16:05:40 [INFO]   Page 44: got 1000 records, 970 new (total: 43497)
+2026-02-24 16:05:40 [DEBUG]   Last record at 2026-01-11 17:20:08+00:00, ~43.9 days ago. Next window: days=44
+2026-02-24 16:05:41 [DEBUG]   Request: coin=CUP, days=44 (attempt 1)
+2026-02-24 16:05:41 [DEBUG]   Got 1000 records
+2026-02-24 16:05:41 [INFO]   Page 45: got 1000 records, 987 new (total: 44484)
+2026-02-24 16:05:41 [DEBUG]   Last record at 2026-01-18 15:00:08+00:00, ~37.0 days ago. Next window: days=37
+2026-02-24 16:05:42 [DEBUG]   Request: coin=CUP, days=37 (attempt 1)
+2026-02-24 16:05:42 [DEBUG]   Got 1000 records
+2026-02-24 16:05:42 [INFO]   Page 46: got 1000 records, 1000 new (total: 45484)
+2026-02-24 16:05:42 [DEBUG]   Last record at 2026-01-25 18:30:08+00:00, ~29.9 days ago. Next window: days=30
+2026-02-24 16:05:43 [DEBUG]   Request: coin=CUP, days=30 (attempt 1)
+2026-02-24 16:05:44 [DEBUG]   Got 1000 records
+2026-02-24 16:05:44 [INFO]   Page 47: got 1000 records, 979 new (total: 46463)
+2026-02-24 16:05:44 [DEBUG]   Last record at 2026-02-01 14:20:10+00:00, ~23.0 days ago. Next window: days=23
+2026-02-24 16:05:45 [DEBUG]   Request: coin=CUP, days=23 (attempt 1)
+2026-02-24 16:05:46 [DEBUG]   Got 1000 records
+2026-02-24 16:05:46 [INFO]   Page 48: got 1000 records, 1000 new (total: 47463)
+2026-02-24 16:05:46 [DEBUG]   Last record at 2026-02-08 23:10:01+00:00, ~15.7 days ago. Next window: days=16
+2026-02-24 16:05:47 [DEBUG]   Request: coin=CUP, days=16 (attempt 1)
+2026-02-24 16:05:47 [DEBUG]   Got 1000 records
+2026-02-24 16:05:47 [INFO]   Page 49: got 1000 records, 953 new (total: 48416)
+2026-02-24 16:05:47 [DEBUG]   Last record at 2026-02-15 15:40:01+00:00, ~9.0 days ago. Next window: days=9
+2026-02-24 16:05:48 [DEBUG]   Request: coin=CUP, days=9 (attempt 1)
+2026-02-24 16:05:48 [DEBUG]   Got 1000 records
+2026-02-24 16:05:48 [INFO]   Page 50: got 1000 records, 996 new (total: 49412)
+2026-02-24 16:05:48 [DEBUG]   Last record at 2026-02-22 14:30:01+00:00, ~2.0 days ago. Next window: days=2
+2026-02-24 16:05:49 [DEBUG]   Request: coin=CUP, days=2 (attempt 1)
+2026-02-24 16:05:50 [DEBUG]   Got 288 records
+2026-02-24 16:05:50 [INFO]   Page 51: got 288 records, 288 new (total: 49700)
+2026-02-24 16:05:50 [INFO]   Reached end of data for CUP
+2026-02-24 16:05:50 [INFO]   CUP complete: 49700 total records
+2026-02-24 16:05:50 [INFO]   Date range: 2023-11-01 → 2026-02-24
+2026-02-24 16:05:51 [INFO] Saved CSV: extractor/output/raw_cup.csv (49700 rows)
+2026-02-24 16:05:51 [INFO] Saved CSV: extractor/output/daily_cup.csv (825 rows)
+2026-02-24 16:05:55 [INFO] Saved Parquet: extractor/output/raw_cup.parquet (49700 rows)
+2026-02-24 16:05:55 [INFO] Saved Parquet: extractor/output/daily_cup.parquet (825 rows)
+2026-02-24 16:05:56 [INFO] ----------------------------------------
+2026-02-24 16:05:56 [INFO] Processing: MLC
+2026-02-24 16:05:56 [INFO] ----------------------------------------
+2026-02-24 16:05:56 [INFO] Fetching history for MLC...
+2026-02-24 16:05:56 [DEBUG]   Request: coin=MLC, days=100000 (attempt 1)
+2026-02-24 16:05:57 [DEBUG]   Got 1000 records
+2026-02-24 16:05:57 [INFO]   Page 1: got 1000 records, 999 new (total: 999)
+2026-02-24 16:05:57 [DEBUG]   Last record at 2023-11-15 22:05:01+00:00, ~831.7 days ago. Next window: days=832
+2026-02-24 16:05:58 [DEBUG]   Request: coin=MLC, days=832 (attempt 1)
+2026-02-24 16:05:59 [DEBUG]   Got 1000 records
+2026-02-24 16:05:59 [INFO]   Page 2: got 1000 records, 916 new (total: 1915)
+2026-02-24 16:05:59 [DEBUG]   Last record at 2023-11-19 02:45:01+00:00, ~828.5 days ago. Next window: days=829
+2026-02-24 16:06:00 [DEBUG]   Request: coin=MLC, days=829 (attempt 1)
+2026-02-24 16:06:01 [DEBUG]   Got 1000 records
+2026-02-24 16:06:01 [INFO]   Page 3: got 1000 records, 860 new (total: 2775)
+2026-02-24 16:06:01 [DEBUG]   Last record at 2023-11-22 02:40:01+00:00, ~825.5 days ago. Next window: days=826
+2026-02-24 16:06:02 [DEBUG]   Request: coin=MLC, days=826 (attempt 1)
+2026-02-24 16:06:02 [DEBUG]   Got 1000 records
+2026-02-24 16:06:02 [INFO]   Page 4: got 1000 records, 861 new (total: 3636)
+2026-02-24 16:06:02 [DEBUG]   Last record at 2024-01-02 01:30:11+00:00, ~784.6 days ago. Next window: days=785
+2026-02-24 16:06:03 [DEBUG]   Request: coin=MLC, days=785 (attempt 1)
+2026-02-24 16:06:04 [DEBUG]   Got 1000 records
+2026-02-24 16:06:04 [INFO]   Page 5: got 1000 records, 984 new (total: 4620)
+2026-02-24 16:06:04 [DEBUG]   Last record at 2024-01-29 05:30:09+00:00, ~757.4 days ago. Next window: days=757
+2026-02-24 16:06:05 [DEBUG]   Request: coin=MLC, days=757 (attempt 1)
+2026-02-24 16:06:06 [DEBUG]   Got 1000 records
+2026-02-24 16:06:06 [INFO]   Page 6: got 1000 records, 999 new (total: 5619)
+2026-02-24 16:06:06 [DEBUG]   Last record at 2024-02-22 09:30:03+00:00, ~733.2 days ago. Next window: days=733
+2026-02-24 16:06:07 [DEBUG]   Request: coin=MLC, days=733 (attempt 1)
+2026-02-24 16:06:07 [DEBUG]   Got 1000 records
+2026-02-24 16:06:07 [INFO]   Page 7: got 1000 records, 1000 new (total: 6619)
+2026-02-24 16:06:07 [DEBUG]   Last record at 2024-03-22 15:30:02+00:00, ~704.0 days ago. Next window: days=704
+2026-02-24 16:06:08 [DEBUG]   Request: coin=MLC, days=704 (attempt 1)
+2026-02-24 16:06:09 [DEBUG]   Got 1000 records
+2026-02-24 16:06:09 [INFO]   Page 8: got 1000 records, 999 new (total: 7618)
+2026-02-24 16:06:09 [DEBUG]   Last record at 2024-04-16 10:00:02+00:00, ~679.2 days ago. Next window: days=679
+2026-02-24 16:06:10 [DEBUG]   Request: coin=MLC, days=679 (attempt 1)
+2026-02-24 16:06:10 [DEBUG]   Got 1000 records
+2026-02-24 16:06:10 [INFO]   Page 9: got 1000 records, 1000 new (total: 8618)
+2026-02-24 16:06:10 [DEBUG]   Last record at 2024-05-07 11:00:03+00:00, ~658.2 days ago. Next window: days=658
+2026-02-24 16:06:11 [DEBUG]   Request: coin=MLC, days=658 (attempt 1)
+2026-02-24 16:06:12 [DEBUG]   Got 1000 records
+2026-02-24 16:06:12 [INFO]   Page 10: got 1000 records, 1000 new (total: 9618)
+2026-02-24 16:06:12 [DEBUG]   Last record at 2024-05-29 11:30:03+00:00, ~636.1 days ago. Next window: days=636
+2026-02-24 16:06:13 [DEBUG]   Request: coin=MLC, days=636 (attempt 1)
+2026-02-24 16:06:13 [DEBUG]   Got 1000 records
+2026-02-24 16:06:13 [INFO]   Page 11: got 1000 records, 1000 new (total: 10618)
+2026-02-24 16:06:13 [DEBUG]   Last record at 2024-06-20 10:00:03+00:00, ~614.2 days ago. Next window: days=614
+2026-02-24 16:06:14 [DEBUG]   Request: coin=MLC, days=614 (attempt 1)
+2026-02-24 16:06:15 [DEBUG]   Got 1000 records
+2026-02-24 16:06:15 [INFO]   Page 12: got 1000 records, 1000 new (total: 11618)
+2026-02-24 16:06:15 [DEBUG]   Last record at 2024-07-11 11:30:03+00:00, ~593.1 days ago. Next window: days=593
+2026-02-24 16:06:16 [DEBUG]   Request: coin=MLC, days=593 (attempt 1)
+2026-02-24 16:06:16 [DEBUG]   Got 1000 records
+2026-02-24 16:06:16 [INFO]   Page 13: got 1000 records, 1000 new (total: 12618)
+2026-02-24 16:06:16 [DEBUG]   Last record at 2024-08-01 11:00:04+00:00, ~572.2 days ago. Next window: days=572
+2026-02-24 16:06:17 [DEBUG]   Request: coin=MLC, days=572 (attempt 1)
+2026-02-24 16:06:18 [DEBUG]   Got 1000 records
+2026-02-24 16:06:18 [INFO]   Page 14: got 1000 records, 1000 new (total: 13618)
+2026-02-24 16:06:18 [DEBUG]   Last record at 2024-08-22 11:00:04+00:00, ~551.2 days ago. Next window: days=551
+2026-02-24 16:06:19 [DEBUG]   Request: coin=MLC, days=551 (attempt 1)
+2026-02-24 16:06:19 [DEBUG]   Got 1000 records
+2026-02-24 16:06:19 [INFO]   Page 15: got 1000 records, 1000 new (total: 14618)
+2026-02-24 16:06:19 [DEBUG]   Last record at 2024-09-12 11:00:05+00:00, ~530.2 days ago. Next window: days=530
+2026-02-24 16:06:20 [DEBUG]   Request: coin=MLC, days=530 (attempt 1)
+2026-02-24 16:06:21 [DEBUG]   Got 1000 records
+2026-02-24 16:06:21 [INFO]   Page 16: got 1000 records, 1000 new (total: 15618)
+2026-02-24 16:06:21 [DEBUG]   Last record at 2024-10-03 11:00:05+00:00, ~509.2 days ago. Next window: days=509
+2026-02-24 16:06:22 [DEBUG]   Request: coin=MLC, days=509 (attempt 1)
+2026-02-24 16:06:22 [DEBUG]   Got 1000 records
+2026-02-24 16:06:22 [INFO]   Page 17: got 1000 records, 1000 new (total: 16618)
+2026-02-24 16:06:22 [DEBUG]   Last record at 2024-10-24 11:00:05+00:00, ~488.2 days ago. Next window: days=488
+2026-02-24 16:06:23 [DEBUG]   Request: coin=MLC, days=488 (attempt 1)
+2026-02-24 16:06:24 [DEBUG]   Got 1000 records
+2026-02-24 16:06:24 [INFO]   Page 18: got 1000 records, 1000 new (total: 17618)
+2026-02-24 16:06:24 [DEBUG]   Last record at 2024-11-14 11:00:05+00:00, ~467.2 days ago. Next window: days=467
+2026-02-24 16:06:25 [DEBUG]   Request: coin=MLC, days=467 (attempt 1)
+2026-02-24 16:06:25 [DEBUG]   Got 1000 records
+2026-02-24 16:06:25 [INFO]   Page 19: got 1000 records, 1000 new (total: 18618)
+2026-02-24 16:06:25 [DEBUG]   Last record at 2024-12-05 11:00:04+00:00, ~446.2 days ago. Next window: days=446
+2026-02-24 16:06:26 [DEBUG]   Request: coin=MLC, days=446 (attempt 1)
+2026-02-24 16:06:26 [DEBUG]   Got 1000 records
+2026-02-24 16:06:26 [INFO]   Page 20: got 1000 records, 1000 new (total: 19618)
+2026-02-24 16:06:26 [DEBUG]   Last record at 2024-12-26 11:00:05+00:00, ~425.2 days ago. Next window: days=425
+2026-02-24 16:06:27 [DEBUG]   Request: coin=MLC, days=425 (attempt 1)
+2026-02-24 16:06:28 [DEBUG]   Got 1000 records
+2026-02-24 16:06:28 [INFO]   Page 21: got 1000 records, 1000 new (total: 20618)
+2026-02-24 16:06:28 [DEBUG]   Last record at 2025-01-16 11:00:04+00:00, ~404.2 days ago. Next window: days=404
+2026-02-24 16:06:29 [DEBUG]   Request: coin=MLC, days=404 (attempt 1)
+2026-02-24 16:06:29 [DEBUG]   Got 1000 records
+2026-02-24 16:06:29 [INFO]   Page 22: got 1000 records, 1000 new (total: 21618)
+2026-02-24 16:06:29 [DEBUG]   Last record at 2025-02-06 11:00:05+00:00, ~383.2 days ago. Next window: days=383
+2026-02-24 16:06:30 [DEBUG]   Request: coin=MLC, days=383 (attempt 1)
+2026-02-24 16:06:31 [DEBUG]   Got 1000 records
+2026-02-24 16:06:31 [INFO]   Page 23: got 1000 records, 1000 new (total: 22618)
+2026-02-24 16:06:31 [DEBUG]   Last record at 2025-02-27 11:00:06+00:00, ~362.2 days ago. Next window: days=362
+2026-02-24 16:06:32 [DEBUG]   Request: coin=MLC, days=362 (attempt 1)
+2026-02-24 16:06:32 [DEBUG]   Got 1000 records
+2026-02-24 16:06:32 [INFO]   Page 24: got 1000 records, 1000 new (total: 23618)
+2026-02-24 16:06:32 [DEBUG]   Last record at 2025-03-20 12:30:05+00:00, ~341.1 days ago. Next window: days=341
+2026-02-24 16:06:33 [DEBUG]   Request: coin=MLC, days=341 (attempt 1)
+2026-02-24 16:06:33 [DEBUG]   Got 1000 records
+2026-02-24 16:06:33 [INFO]   Page 25: got 1000 records, 1000 new (total: 24618)
+2026-02-24 16:06:33 [DEBUG]   Last record at 2025-04-10 12:00:05+00:00, ~320.1 days ago. Next window: days=320
+2026-02-24 16:06:34 [DEBUG]   Request: coin=MLC, days=320 (attempt 1)
+2026-02-24 16:06:35 [DEBUG]   Got 1000 records
+2026-02-24 16:06:35 [INFO]   Page 26: got 1000 records, 1000 new (total: 25618)
+2026-02-24 16:06:35 [DEBUG]   Last record at 2025-05-01 11:00:06+00:00, ~299.2 days ago. Next window: days=299
+2026-02-24 16:06:36 [DEBUG]   Request: coin=MLC, days=299 (attempt 1)
+2026-02-24 16:06:36 [DEBUG]   Got 1000 records
+2026-02-24 16:06:36 [INFO]   Page 27: got 1000 records, 1000 new (total: 26618)
+2026-02-24 16:06:36 [DEBUG]   Last record at 2025-05-22 15:30:02+00:00, ~278.0 days ago. Next window: days=278
+2026-02-24 16:06:37 [DEBUG]   Request: coin=MLC, days=278 (attempt 1)
+2026-02-24 16:06:38 [DEBUG]   Got 1000 records
+2026-02-24 16:06:38 [INFO]   Page 28: got 1000 records, 999 new (total: 27617)
+2026-02-24 16:06:38 [DEBUG]   Last record at 2025-06-12 11:00:02+00:00, ~257.2 days ago. Next window: days=257
+2026-02-24 16:06:39 [DEBUG]   Request: coin=MLC, days=257 (attempt 1)
+2026-02-24 16:06:39 [DEBUG]   Got 1000 records
+2026-02-24 16:06:39 [INFO]   Page 29: got 1000 records, 1000 new (total: 28617)
+2026-02-24 16:06:39 [DEBUG]   Last record at 2025-07-03 13:30:02+00:00, ~236.1 days ago. Next window: days=236
+2026-02-24 16:06:40 [DEBUG]   Request: coin=MLC, days=236 (attempt 1)
+2026-02-24 16:06:41 [DEBUG]   Got 1000 records
+2026-02-24 16:06:41 [INFO]   Page 30: got 1000 records, 1000 new (total: 29617)
+2026-02-24 16:06:41 [DEBUG]   Last record at 2025-07-27 03:30:06+00:00, ~212.5 days ago. Next window: days=212
+2026-02-24 16:06:42 [DEBUG]   Request: coin=MLC, days=212 (attempt 1)
+2026-02-24 16:06:42 [DEBUG]   Got 1000 records
+2026-02-24 16:06:42 [INFO]   Page 31: got 1000 records, 1000 new (total: 30617)
+2026-02-24 16:06:42 [DEBUG]   Last record at 2025-08-17 13:30:06+00:00, ~191.1 days ago. Next window: days=191
+2026-02-24 16:06:43 [DEBUG]   Request: coin=MLC, days=191 (attempt 1)
+2026-02-24 16:06:44 [DEBUG]   Got 1000 records
+2026-02-24 16:06:44 [INFO]   Page 32: got 1000 records, 1000 new (total: 31617)
+2026-02-24 16:06:44 [DEBUG]   Last record at 2025-09-07 19:00:09+00:00, ~169.8 days ago. Next window: days=170
+2026-02-24 16:06:45 [DEBUG]   Request: coin=MLC, days=170 (attempt 1)
+2026-02-24 16:06:45 [DEBUG]   Got 1000 records
+2026-02-24 16:06:45 [INFO]   Page 33: got 1000 records, 992 new (total: 32609)
+2026-02-24 16:06:45 [DEBUG]   Last record at 2025-09-28 22:30:08+00:00, ~148.7 days ago. Next window: days=149
+2026-02-24 16:06:46 [DEBUG]   Request: coin=MLC, days=149 (attempt 1)
+2026-02-24 16:06:47 [DEBUG]   Got 1000 records
+2026-02-24 16:06:47 [INFO]   Page 34: got 1000 records, 986 new (total: 33595)
+2026-02-24 16:06:47 [DEBUG]   Last record at 2025-10-19 19:00:07+00:00, ~127.8 days ago. Next window: days=128
+2026-02-24 16:06:48 [DEBUG]   Request: coin=MLC, days=128 (attempt 1)
+2026-02-24 16:06:49 [DEBUG]   Got 1000 records
+2026-02-24 16:06:49 [INFO]   Page 35: got 1000 records, 992 new (total: 34587)
+2026-02-24 16:06:49 [DEBUG]   Last record at 2025-11-10 00:00:06+00:00, ~106.6 days ago. Next window: days=107
+2026-02-24 16:06:50 [DEBUG]   Request: coin=MLC, days=107 (attempt 1)
+2026-02-24 16:06:50 [DEBUG]   Got 1000 records
+2026-02-24 16:06:50 [INFO]   Page 36: got 1000 records, 982 new (total: 35569)
+2026-02-24 16:06:50 [DEBUG]   Last record at 2025-11-23 05:40:07+00:00, ~93.4 days ago. Next window: days=93
+2026-02-24 16:06:51 [DEBUG]   Request: coin=MLC, days=93 (attempt 1)
+2026-02-24 16:06:52 [DEBUG]   Got 1000 records
+2026-02-24 16:06:52 [INFO]   Page 37: got 1000 records, 1000 new (total: 36569)
+2026-02-24 16:06:52 [DEBUG]   Last record at 2025-11-30 22:50:07+00:00, ~85.7 days ago. Next window: days=86
+2026-02-24 16:06:53 [DEBUG]   Request: coin=MLC, days=86 (attempt 1)
+2026-02-24 16:06:53 [DEBUG]   Got 1000 records
+2026-02-24 16:06:53 [INFO]   Page 38: got 1000 records, 954 new (total: 37523)
+2026-02-24 16:06:53 [DEBUG]   Last record at 2025-12-07 21:50:06+00:00, ~78.7 days ago. Next window: days=79
+2026-02-24 16:06:54 [DEBUG]   Request: coin=MLC, days=79 (attempt 1)
+2026-02-24 16:06:55 [DEBUG]   Got 1000 records
+2026-02-24 16:06:55 [INFO]   Page 39: got 1000 records, 960 new (total: 38483)
+2026-02-24 16:06:55 [DEBUG]   Last record at 2025-12-14 16:40:07+00:00, ~71.9 days ago. Next window: days=72
+2026-02-24 16:06:56 [DEBUG]   Request: coin=MLC, days=72 (attempt 1)
+2026-02-24 16:06:56 [DEBUG]   Got 1000 records
+2026-02-24 16:06:56 [INFO]   Page 40: got 1000 records, 990 new (total: 39473)
+2026-02-24 16:06:56 [DEBUG]   Last record at 2025-12-21 15:00:10+00:00, ~65.0 days ago. Next window: days=65
+2026-02-24 16:06:57 [DEBUG]   Request: coin=MLC, days=65 (attempt 1)
+2026-02-24 16:06:57 [DEBUG]   Got 1000 records
+2026-02-24 16:06:57 [INFO]   Page 41: got 1000 records, 1000 new (total: 40473)
+2026-02-24 16:06:57 [DEBUG]   Last record at 2025-12-28 15:00:07+00:00, ~58.0 days ago. Next window: days=58
+2026-02-24 16:06:58 [DEBUG]   Request: coin=MLC, days=58 (attempt 1)
+2026-02-24 16:06:59 [DEBUG]   Got 1000 records
+2026-02-24 16:06:59 [INFO]   Page 42: got 1000 records, 1000 new (total: 41473)
+2026-02-24 16:06:59 [DEBUG]   Last record at 2026-01-05 22:30:07+00:00, ~49.7 days ago. Next window: days=50
+2026-02-24 16:07:00 [DEBUG]   Request: coin=MLC, days=50 (attempt 1)
+2026-02-24 16:07:00 [DEBUG]   Got 1000 records
+2026-02-24 16:07:00 [INFO]   Page 43: got 1000 records, 955 new (total: 42428)
+2026-02-24 16:07:00 [DEBUG]   Last record at 2026-01-12 14:40:09+00:00, ~43.0 days ago. Next window: days=43
+2026-02-24 16:07:01 [DEBUG]   Request: coin=MLC, days=43 (attempt 1)
+2026-02-24 16:07:02 [DEBUG]   Got 1000 records
+2026-02-24 16:07:02 [INFO]   Page 44: got 1000 records, 1000 new (total: 43428)
+2026-02-24 16:07:02 [DEBUG]   Last record at 2026-01-19 15:00:10+00:00, ~36.0 days ago. Next window: days=36
+2026-02-24 16:07:03 [DEBUG]   Request: coin=MLC, days=36 (attempt 1)
+2026-02-24 16:07:03 [DEBUG]   Got 1000 records
+2026-02-24 16:07:03 [INFO]   Page 45: got 1000 records, 1000 new (total: 44428)
+2026-02-24 16:07:03 [DEBUG]   Last record at 2026-01-26 18:40:10+00:00, ~28.9 days ago. Next window: days=29
+2026-02-24 16:07:04 [DEBUG]   Request: coin=MLC, days=29 (attempt 1)
+2026-02-24 16:07:05 [DEBUG]   Got 1000 records
+2026-02-24 16:07:05 [INFO]   Page 46: got 1000 records, 978 new (total: 45406)
+2026-02-24 16:07:05 [DEBUG]   Last record at 2026-02-02 14:00:16+00:00, ~22.0 days ago. Next window: days=22
+2026-02-24 16:07:06 [DEBUG]   Request: coin=MLC, days=22 (attempt 1)
+2026-02-24 16:07:06 [DEBUG]   Got 1000 records
+2026-02-24 16:07:06 [INFO]   Page 47: got 1000 records, 1000 new (total: 46406)
+2026-02-24 16:07:06 [DEBUG]   Last record at 2026-02-11 14:10:01+00:00, ~13.0 days ago. Next window: days=13
+2026-02-24 16:07:07 [DEBUG]   Request: coin=MLC, days=13 (attempt 1)
+2026-02-24 16:07:08 [DEBUG]   Got 1000 records
+2026-02-24 16:07:08 [INFO]   Page 48: got 1000 records, 1000 new (total: 47406)
+2026-02-24 16:07:08 [DEBUG]   Last record at 2026-02-18 15:00:01+00:00, ~6.0 days ago. Next window: days=6
+2026-02-24 16:07:09 [DEBUG]   Request: coin=MLC, days=6 (attempt 1)
+2026-02-24 16:07:09 [DEBUG]   Got 864 records
+2026-02-24 16:07:09 [INFO]   Page 49: got 864 records, 864 new (total: 48270)
+2026-02-24 16:07:09 [INFO]   Reached end of data for MLC
+2026-02-24 16:07:09 [INFO]   MLC complete: 48270 total records
+2026-02-24 16:07:09 [INFO]   Date range: 2023-11-01 → 2026-02-24
+2026-02-24 16:07:10 [INFO] Saved CSV: extractor/output/raw_mlc.csv (48270 rows)
+2026-02-24 16:07:10 [INFO] Saved CSV: extractor/output/daily_mlc.csv (813 rows)
+2026-02-24 16:07:10 [INFO] Saved Parquet: extractor/output/raw_mlc.parquet (48270 rows)
+2026-02-24 16:07:10 [INFO] Saved Parquet: extractor/output/daily_mlc.parquet (813 rows)
+2026-02-24 16:07:11 [INFO] ----------------------------------------
+2026-02-24 16:07:11 [INFO] Processing: CLASICA
+2026-02-24 16:07:11 [INFO] ----------------------------------------
+2026-02-24 16:07:11 [INFO] Fetching history for CLASICA...
+2026-02-24 16:07:11 [DEBUG]   Request: coin=CLASICA, days=100000 (attempt 1)
+2026-02-24 16:07:13 [DEBUG]   Got 1000 records
+2026-02-24 16:07:13 [INFO]   Page 1: got 1000 records, 1000 new (total: 1000)
+2026-02-24 16:07:13 [DEBUG]   Last record at 2025-08-06 14:30:07+00:00, ~202.0 days ago. Next window: days=202
+2026-02-24 16:07:14 [DEBUG]   Request: coin=CLASICA, days=202 (attempt 1)
+2026-02-24 16:07:14 [DEBUG]   Got 1000 records
+2026-02-24 16:07:14 [INFO]   Page 2: got 1000 records, 1000 new (total: 2000)
+2026-02-24 16:07:14 [DEBUG]   Last record at 2025-08-27 13:00:07+00:00, ~181.1 days ago. Next window: days=181
+2026-02-24 16:07:15 [DEBUG]   Request: coin=CLASICA, days=181 (attempt 1)
+2026-02-24 16:07:15 [DEBUG]   Got 1000 records
+2026-02-24 16:07:15 [INFO]   Page 3: got 1000 records, 1000 new (total: 3000)
+2026-02-24 16:07:15 [DEBUG]   Last record at 2025-09-19 10:00:08+00:00, ~158.2 days ago. Next window: days=158
+2026-02-24 16:07:16 [DEBUG]   Request: coin=CLASICA, days=158 (attempt 1)
+2026-02-24 16:07:17 [DEBUG]   Got 1000 records
+2026-02-24 16:07:17 [INFO]   Page 4: got 1000 records, 1000 new (total: 4000)
+2026-02-24 16:07:17 [DEBUG]   Last record at 2025-10-10 19:00:12+00:00, ~136.8 days ago. Next window: days=137
+2026-02-24 16:07:18 [DEBUG]   Request: coin=CLASICA, days=137 (attempt 1)
+2026-02-24 16:07:18 [DEBUG]   Got 1000 records
+2026-02-24 16:07:18 [INFO]   Page 5: got 1000 records, 993 new (total: 4993)
+2026-02-24 16:07:18 [DEBUG]   Last record at 2025-10-31 17:00:05+00:00, ~115.9 days ago. Next window: days=116
+2026-02-24 16:07:19 [DEBUG]   Request: coin=CLASICA, days=116 (attempt 1)
+2026-02-24 16:07:20 [DEBUG]   Got 1000 records
+2026-02-24 16:07:20 [INFO]   Page 6: got 1000 records, 996 new (total: 5989)
+2026-02-24 16:07:20 [DEBUG]   Last record at 2025-11-20 13:20:06+00:00, ~96.1 days ago. Next window: days=96
+2026-02-24 16:07:21 [DEBUG]   Request: coin=CLASICA, days=96 (attempt 1)
+2026-02-24 16:07:21 [DEBUG]   Got 1000 records
+2026-02-24 16:07:21 [INFO]   Page 7: got 1000 records, 1000 new (total: 6989)
+2026-02-24 16:07:21 [DEBUG]   Last record at 2025-11-28 07:50:06+00:00, ~88.3 days ago. Next window: days=88
+2026-02-24 16:07:22 [DEBUG]   Request: coin=CLASICA, days=88 (attempt 1)
+2026-02-24 16:07:22 [DEBUG]   Got 1000 records
+2026-02-24 16:07:22 [INFO]   Page 8: got 1000 records, 1000 new (total: 7989)
+2026-02-24 16:07:22 [DEBUG]   Last record at 2025-12-05 18:20:08+00:00, ~80.9 days ago. Next window: days=81
+2026-02-24 16:07:23 [DEBUG]   Request: coin=CLASICA, days=81 (attempt 1)
+2026-02-24 16:07:24 [DEBUG]   Got 1000 records
+2026-02-24 16:07:24 [INFO]   Page 9: got 1000 records, 980 new (total: 8969)
+2026-02-24 16:07:24 [DEBUG]   Last record at 2025-12-12 16:40:07+00:00, ~73.9 days ago. Next window: days=74
+2026-02-24 16:07:25 [DEBUG]   Request: coin=CLASICA, days=74 (attempt 1)
+2026-02-24 16:07:25 [DEBUG]   Got 1000 records
+2026-02-24 16:07:25 [INFO]   Page 10: got 1000 records, 990 new (total: 9959)
+2026-02-24 16:07:25 [DEBUG]   Last record at 2025-12-19 15:00:11+00:00, ~67.0 days ago. Next window: days=67
+2026-02-24 16:07:26 [DEBUG]   Request: coin=CLASICA, days=67 (attempt 1)
+2026-02-24 16:07:27 [DEBUG]   Got 1000 records
+2026-02-24 16:07:27 [INFO]   Page 11: got 1000 records, 1000 new (total: 10959)
+2026-02-24 16:07:27 [DEBUG]   Last record at 2025-12-26 15:10:09+00:00, ~60.0 days ago. Next window: days=60
+2026-02-24 16:07:28 [DEBUG]   Request: coin=CLASICA, days=60 (attempt 1)
+2026-02-24 16:07:28 [DEBUG]   Got 1000 records
+2026-02-24 16:07:28 [INFO]   Page 12: got 1000 records, 999 new (total: 11958)
+2026-02-24 16:07:28 [DEBUG]   Last record at 2026-01-02 14:20:08+00:00, ~53.0 days ago. Next window: days=53
+2026-02-24 16:07:29 [DEBUG]   Request: coin=CLASICA, days=53 (attempt 1)
+2026-02-24 16:07:30 [DEBUG]   Got 1000 records
+2026-02-24 16:07:30 [INFO]   Page 13: got 1000 records, 1000 new (total: 12958)
+2026-02-24 16:07:30 [DEBUG]   Last record at 2026-01-09 22:40:10+00:00, ~45.7 days ago. Next window: days=46
+2026-02-24 16:07:31 [DEBUG]   Request: coin=CLASICA, days=46 (attempt 1)
+2026-02-24 16:07:31 [DEBUG]   Got 1000 records
+2026-02-24 16:07:31 [INFO]   Page 14: got 1000 records, 955 new (total: 13913)
+2026-02-24 16:07:31 [DEBUG]   Last record at 2026-01-16 14:50:09+00:00, ~39.0 days ago. Next window: days=39
+2026-02-24 16:07:32 [DEBUG]   Request: coin=CLASICA, days=39 (attempt 1)
+2026-02-24 16:07:32 [DEBUG]   Got 1000 records
+2026-02-24 16:07:32 [INFO]   Page 15: got 1000 records, 1000 new (total: 14913)
+2026-02-24 16:07:32 [DEBUG]   Last record at 2026-01-23 19:10:09+00:00, ~31.8 days ago. Next window: days=32
+2026-02-24 16:07:33 [DEBUG]   Request: coin=CLASICA, days=32 (attempt 1)
+2026-02-24 16:07:34 [DEBUG]   Got 1000 records
+2026-02-24 16:07:34 [INFO]   Page 16: got 1000 records, 975 new (total: 15888)
+2026-02-24 16:07:34 [DEBUG]   Last record at 2026-01-30 14:10:42+00:00, ~25.0 days ago. Next window: days=25
+2026-02-24 16:07:35 [DEBUG]   Request: coin=CLASICA, days=25 (attempt 1)
+2026-02-24 16:07:35 [DEBUG]   Got 1000 records
+2026-02-24 16:07:35 [INFO]   Page 17: got 1000 records, 1000 new (total: 16888)
+2026-02-24 16:07:35 [DEBUG]   Last record at 2026-02-06 22:30:01+00:00, ~17.7 days ago. Next window: days=18
+2026-02-24 16:07:36 [DEBUG]   Request: coin=CLASICA, days=18 (attempt 1)
+2026-02-24 16:07:36 [DEBUG]   Got 1000 records
+2026-02-24 16:07:36 [INFO]   Page 18: got 1000 records, 958 new (total: 17846)
+2026-02-24 16:07:36 [DEBUG]   Last record at 2026-02-16 11:50:01+00:00, ~8.1 days ago. Next window: days=8
+2026-02-24 16:07:37 [DEBUG]   Request: coin=CLASICA, days=8 (attempt 1)
+2026-02-24 16:07:38 [DEBUG]   Got 1000 records
+2026-02-24 16:07:38 [INFO]   Page 19: got 1000 records, 1000 new (total: 18846)
+2026-02-24 16:07:38 [DEBUG]   Last record at 2026-02-23 13:50:01+00:00, ~1.1 days ago. Next window: days=1
+2026-02-24 16:07:39 [DEBUG]   Request: coin=CLASICA, days=1 (attempt 1)
+2026-02-24 16:07:39 [DEBUG]   Got 144 records
+2026-02-24 16:07:39 [INFO]   Page 20: got 144 records, 144 new (total: 18990)
+2026-02-24 16:07:39 [INFO]   Reached end of data for CLASICA
+2026-02-24 16:07:39 [INFO]   CLASICA complete: 18990 total records
+2026-02-24 16:07:39 [INFO]   Date range: 2025-07-16 → 2026-02-24
+2026-02-24 16:07:39 [INFO] Saved CSV: extractor/output/raw_clasica.csv (18990 rows)
+2026-02-24 16:07:39 [INFO] Saved CSV: extractor/output/daily_clasica.csv (221 rows)
+2026-02-24 16:07:39 [INFO] Saved Parquet: extractor/output/raw_clasica.parquet (18990 rows)
+2026-02-24 16:07:39 [INFO] Saved Parquet: extractor/output/daily_clasica.parquet (221 rows)
+2026-02-24 16:07:40 [INFO] ----------------------------------------
+2026-02-24 16:07:40 [INFO] Processing: ETECSA
+2026-02-24 16:07:40 [INFO] ----------------------------------------
+2026-02-24 16:07:40 [INFO] Fetching history for ETECSA...
+2026-02-24 16:07:40 [DEBUG]   Request: coin=ETECSA, days=100000 (attempt 1)
+2026-02-24 16:07:41 [DEBUG]   Got 1000 records
+2026-02-24 16:07:41 [INFO]   Page 1: got 1000 records, 1000 new (total: 1000)
+2026-02-24 16:07:41 [DEBUG]   Last record at 2025-11-26 13:20:07+00:00, ~90.1 days ago. Next window: days=90
+2026-02-24 16:07:42 [DEBUG]   Request: coin=ETECSA, days=90 (attempt 1)
+2026-02-24 16:07:42 [DEBUG]   Got 1000 records
+2026-02-24 16:07:42 [INFO]   Page 2: got 1000 records, 1000 new (total: 2000)
+2026-02-24 16:07:42 [DEBUG]   Last record at 2025-12-03 17:40:08+00:00, ~82.9 days ago. Next window: days=83
+2026-02-24 16:07:43 [DEBUG]   Request: coin=ETECSA, days=83 (attempt 1)
+2026-02-24 16:07:43 [DEBUG]   Got 1000 records
+2026-02-24 16:07:43 [INFO]   Page 3: got 1000 records, 984 new (total: 2984)
+2026-02-24 16:07:43 [DEBUG]   Last record at 2025-12-10 18:20:08+00:00, ~75.9 days ago. Next window: days=76
+2026-02-24 16:07:44 [DEBUG]   Request: coin=ETECSA, days=76 (attempt 1)
+2026-02-24 16:07:45 [DEBUG]   Got 1000 records
+2026-02-24 16:07:45 [INFO]   Page 4: got 1000 records, 980 new (total: 3964)
+2026-02-24 16:07:45 [DEBUG]   Last record at 2025-12-17 15:10:11+00:00, ~69.0 days ago. Next window: days=69
+2026-02-24 16:07:46 [DEBUG]   Request: coin=ETECSA, days=69 (attempt 1)
+2026-02-24 16:07:46 [DEBUG]   Got 1000 records
+2026-02-24 16:07:46 [INFO]   Page 5: got 1000 records, 999 new (total: 4963)
+2026-02-24 16:07:46 [DEBUG]   Last record at 2025-12-24 15:30:09+00:00, ~62.0 days ago. Next window: days=62
+2026-02-24 16:07:47 [DEBUG]   Request: coin=ETECSA, days=62 (attempt 1)
+2026-02-24 16:07:48 [DEBUG]   Got 1000 records
+2026-02-24 16:07:48 [INFO]   Page 6: got 1000 records, 997 new (total: 5960)
+2026-02-24 16:07:48 [DEBUG]   Last record at 2025-12-31 14:50:07+00:00, ~55.0 days ago. Next window: days=55
+2026-02-24 16:07:49 [DEBUG]   Request: coin=ETECSA, days=55 (attempt 1)
+2026-02-24 16:07:49 [DEBUG]   Got 1000 records
+2026-02-24 16:07:49 [INFO]   Page 7: got 1000 records, 1000 new (total: 6960)
+2026-02-24 16:07:49 [DEBUG]   Last record at 2026-01-07 22:20:09+00:00, ~47.7 days ago. Next window: days=48
+2026-02-24 16:07:50 [DEBUG]   Request: coin=ETECSA, days=48 (attempt 1)
+2026-02-24 16:07:51 [DEBUG]   Got 1000 records
+2026-02-24 16:07:51 [INFO]   Page 8: got 1000 records, 957 new (total: 7917)
+2026-02-24 16:07:51 [DEBUG]   Last record at 2026-01-14 15:00:09+00:00, ~41.0 days ago. Next window: days=41
+2026-02-24 16:07:52 [DEBUG]   Request: coin=ETECSA, days=41 (attempt 1)
+2026-02-24 16:07:52 [DEBUG]   Got 1000 records
+2026-02-24 16:07:52 [INFO]   Page 9: got 1000 records, 1000 new (total: 8917)
+2026-02-24 16:07:52 [DEBUG]   Last record at 2026-01-21 15:00:11+00:00, ~34.0 days ago. Next window: days=34
+2026-02-24 16:07:53 [DEBUG]   Request: coin=ETECSA, days=34 (attempt 1)
+2026-02-24 16:07:53 [DEBUG]   Got 1000 records
+2026-02-24 16:07:53 [INFO]   Page 10: got 1000 records, 1000 new (total: 9917)
+2026-02-24 16:07:53 [DEBUG]   Last record at 2026-01-28 18:20:12+00:00, ~26.9 days ago. Next window: days=27
+2026-02-24 16:07:54 [DEBUG]   Request: coin=ETECSA, days=27 (attempt 1)
+2026-02-24 16:07:55 [DEBUG]   Got 1000 records
+2026-02-24 16:07:55 [INFO]   Page 11: got 1000 records, 980 new (total: 10897)
+2026-02-24 16:07:55 [DEBUG]   Last record at 2026-02-04 22:00:04+00:00, ~19.7 days ago. Next window: days=20
+2026-02-24 16:07:56 [DEBUG]   Request: coin=ETECSA, days=20 (attempt 1)
+2026-02-24 16:07:56 [DEBUG]   Got 1000 records
+2026-02-24 16:07:56 [INFO]   Page 12: got 1000 records, 959 new (total: 11856)
+2026-02-24 16:07:56 [DEBUG]   Last record at 2026-02-11 20:40:01+00:00, ~12.8 days ago. Next window: days=13
+2026-02-24 16:07:57 [DEBUG]   Request: coin=ETECSA, days=13 (attempt 1)
+2026-02-24 16:07:57 [DEBUG]   Got 1000 records
+2026-02-24 16:07:58 [INFO]   Page 13: got 1000 records, 972 new (total: 12828)
+2026-02-24 16:07:58 [DEBUG]   Last record at 2026-02-18 18:30:01+00:00, ~5.9 days ago. Next window: days=6
+2026-02-24 16:07:59 [DEBUG]   Request: coin=ETECSA, days=6 (attempt 1)
+2026-02-24 16:07:59 [DEBUG]   Got 864 records
+2026-02-24 16:07:59 [INFO]   Page 14: got 864 records, 843 new (total: 13671)
+2026-02-24 16:07:59 [INFO]   Reached end of data for ETECSA
+2026-02-24 16:07:59 [INFO]   ETECSA complete: 13671 total records
+2026-02-24 16:07:59 [INFO]   Date range: 2025-11-18 → 2026-02-24
+2026-02-24 16:07:59 [INFO] Saved CSV: extractor/output/raw_etecsa.csv (13671 rows)
+2026-02-24 16:07:59 [INFO] Saved CSV: extractor/output/daily_etecsa.csv (99 rows)
+2026-02-24 16:07:59 [INFO] Saved Parquet: extractor/output/raw_etecsa.parquet (13671 rows)
+2026-02-24 16:07:59 [INFO] Saved Parquet: extractor/output/daily_etecsa.parquet (99 rows)
+2026-02-24 16:08:00 [INFO] ----------------------------------------
+2026-02-24 16:08:00 [INFO] Processing: TROPICAL
+2026-02-24 16:08:00 [INFO] ----------------------------------------
+2026-02-24 16:08:00 [INFO] Fetching history for TROPICAL...
+2026-02-24 16:08:00 [DEBUG]   Request: coin=TROPICAL, days=100000 (attempt 1)
+2026-02-24 16:08:01 [DEBUG]   Got 1000 records
+2026-02-24 16:08:01 [INFO]   Page 1: got 1000 records, 1000 new (total: 1000)
+2026-02-24 16:08:01 [DEBUG]   Last record at 2025-12-24 04:10:10+00:00, ~62.5 days ago. Next window: days=62
+2026-02-24 16:08:02 [DEBUG]   Request: coin=TROPICAL, days=62 (attempt 1)
+2026-02-24 16:08:02 [DEBUG]   Got 1000 records
+2026-02-24 16:08:02 [INFO]   Page 2: got 1000 records, 1000 new (total: 2000)
+2026-02-24 16:08:02 [DEBUG]   Last record at 2025-12-31 14:40:08+00:00, ~55.0 days ago. Next window: days=55
+2026-02-24 16:08:03 [DEBUG]   Request: coin=TROPICAL, days=55 (attempt 1)
+2026-02-24 16:08:04 [DEBUG]   Got 1000 records
+2026-02-24 16:08:04 [INFO]   Page 3: got 1000 records, 1000 new (total: 3000)
+2026-02-24 16:08:04 [DEBUG]   Last record at 2026-01-07 22:20:09+00:00, ~47.7 days ago. Next window: days=48
+2026-02-24 16:08:05 [DEBUG]   Request: coin=TROPICAL, days=48 (attempt 1)
+2026-02-24 16:08:05 [DEBUG]   Got 1000 records
+2026-02-24 16:08:05 [INFO]   Page 4: got 1000 records, 957 new (total: 3957)
+2026-02-24 16:08:05 [DEBUG]   Last record at 2026-01-14 15:00:09+00:00, ~41.0 days ago. Next window: days=41
+2026-02-24 16:08:06 [DEBUG]   Request: coin=TROPICAL, days=41 (attempt 1)
+2026-02-24 16:08:06 [DEBUG]   Got 1000 records
+2026-02-24 16:08:06 [INFO]   Page 5: got 1000 records, 1000 new (total: 4957)
+2026-02-24 16:08:06 [DEBUG]   Last record at 2026-01-21 15:00:11+00:00, ~34.0 days ago. Next window: days=34
+2026-02-24 16:08:07 [DEBUG]   Request: coin=TROPICAL, days=34 (attempt 1)
+2026-02-24 16:08:08 [DEBUG]   Got 1000 records
+2026-02-24 16:08:08 [INFO]   Page 6: got 1000 records, 1000 new (total: 5957)
+2026-02-24 16:08:08 [DEBUG]   Last record at 2026-01-28 18:20:12+00:00, ~26.9 days ago. Next window: days=27
+2026-02-24 16:08:09 [DEBUG]   Request: coin=TROPICAL, days=27 (attempt 1)
+2026-02-24 16:08:09 [DEBUG]   Got 1000 records
+2026-02-24 16:08:09 [INFO]   Page 7: got 1000 records, 980 new (total: 6937)
+2026-02-24 16:08:09 [DEBUG]   Last record at 2026-02-04 22:00:04+00:00, ~19.7 days ago. Next window: days=20
+2026-02-24 16:08:10 [DEBUG]   Request: coin=TROPICAL, days=20 (attempt 1)
+2026-02-24 16:08:11 [DEBUG]   Got 1000 records
+2026-02-24 16:08:11 [INFO]   Page 8: got 1000 records, 959 new (total: 7896)
+2026-02-24 16:08:11 [DEBUG]   Last record at 2026-02-14 10:10:01+00:00, ~10.2 days ago. Next window: days=10
+2026-02-24 16:08:12 [DEBUG]   Request: coin=TROPICAL, days=10 (attempt 1)
+2026-02-24 16:08:12 [DEBUG]   Got 1000 records
+2026-02-24 16:08:12 [INFO]   Page 9: got 1000 records, 1000 new (total: 8896)
+2026-02-24 16:08:12 [DEBUG]   Last record at 2026-02-21 14:50:01+00:00, ~3.0 days ago. Next window: days=3
+2026-02-24 16:08:13 [DEBUG]   Request: coin=TROPICAL, days=3 (attempt 1)
+2026-02-24 16:08:13 [DEBUG]   Got 432 records
+2026-02-24 16:08:13 [INFO]   Page 10: got 432 records, 432 new (total: 9328)
+2026-02-24 16:08:13 [INFO]   Reached end of data for TROPICAL
+2026-02-24 16:08:13 [INFO]   TROPICAL complete: 9328 total records
+2026-02-24 16:08:13 [INFO]   Date range: 2025-12-17 → 2026-02-24
+2026-02-24 16:08:14 [INFO] Saved CSV: extractor/output/raw_tropical.csv (9328 rows)
+2026-02-24 16:08:14 [INFO] Saved CSV: extractor/output/daily_tropical.csv (70 rows)
+2026-02-24 16:08:14 [INFO] Saved Parquet: extractor/output/raw_tropical.parquet (9328 rows)
+2026-02-24 16:08:14 [INFO] Saved Parquet: extractor/output/daily_tropical.parquet (70 rows)
+2026-02-24 16:08:16 [INFO] Saved CSV: extractor/output/raw_all_coins.csv (139959 rows)
+2026-02-24 16:08:17 [INFO] Saved Parquet: extractor/output/raw_all_coins.parquet (139959 rows)
+2026-02-24 16:08:17 [INFO] Saved CSV: extractor/output/daily_all_coins.csv (2028 rows)
+2026-02-24 16:08:17 [INFO] Saved Parquet: extractor/output/daily_all_coins.parquet (2028 rows)
+2026-02-24 16:08:17 [INFO] 
+2026-02-24 16:08:17 [INFO] Fetching current QvaPay P2P snapshots...
+2026-02-24 16:08:17 [INFO]   CUP: 581 individual offers, avg_buy=574.3614, avg_sell=578.8456
+2026-02-24 16:08:19 [INFO]   MLC: 41 individual offers, avg_buy=1.2711, avg_sell=1.2718
+2026-02-24 16:08:20 [INFO]   CLASICA: 68 individual offers, avg_buy=1.0353, avg_sell=1.0455
+2026-02-24 16:08:20 [INFO]   ETECSA: 101 individual offers, avg_buy=200.6190, avg_sell=193.7519
+2026-02-24 16:08:21 [INFO]   TROPICAL: 25 individual offers, avg_buy=1.0517, avg_sell=1.0639
+2026-02-24 16:08:22 [INFO] Saved CSV: extractor/output/qvapay_snapshot.csv (816 rows)
+2026-02-24 16:08:22 [INFO] Saved Parquet: extractor/output/qvapay_snapshot.parquet (816 rows)
+2026-02-24 16:08:22 [INFO] 
+2026-02-24 16:08:22 [INFO] ============================================================
+2026-02-24 16:08:22 [INFO] EXTRACTION SUMMARY
+2026-02-24 16:08:22 [INFO] ============================================================
+2026-02-24 16:08:22 [INFO]   CUP        |  49,700 records |   825 days | 2023-11-01 → 2026-02-24 (845 days)
+2026-02-24 16:08:22 [INFO]   MLC        |  48,270 records |   813 days | 2023-11-01 → 2026-02-24 (845 days)
+2026-02-24 16:08:22 [INFO]   CLASICA    |  18,990 records |   221 days | 2025-07-16 → 2026-02-24 (222 days)
+2026-02-24 16:08:22 [INFO]   ETECSA     |  13,671 records |    99 days | 2025-11-18 → 2026-02-24 (97 days)
+2026-02-24 16:08:22 [INFO]   TROPICAL   |   9,328 records |    70 days | 2025-12-17 → 2026-02-24 (69 days)
+2026-02-24 16:08:22 [INFO] 
+Summary saved to: extractor/output/extraction_summary.json
+2026-02-24 16:08:22 [INFO] Done!

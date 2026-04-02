@@ -1,0 +1,46 @@
+{
+  "extraction_time": "2026-02-24T15:08:22.507462+00:00",
+  "source": "https://www.cambiocup.com/api/history",
+  "coins": {
+    "CUP": {
+      "status": "OK",
+      "records": 49700,
+      "daily_records": 825,
+      "earliest": "2023-11-01",
+      "latest": "2026-02-24",
+      "days_span": 845
+    },
+    "MLC": {
+      "status": "OK",
+      "records": 48270,
+      "daily_records": 813,
+      "earliest": "2023-11-01",
+      "latest": "2026-02-24",
+      "days_span": 845
+    },
+    "CLASICA": {
+      "status": "OK",
+      "records": 18990,
+      "daily_records": 221,
+      "earliest": "2025-07-16",
+      "latest": "2026-02-24",
+      "days_span": 222
+    },
+    "ETECSA": {
+      "status": "OK",
+      "records": 13671,
+      "daily_records": 99,
+      "earliest": "2025-11-18",
+      "latest": "2026-02-24",
+      "days_span": 97
+    },
+    "TROPICAL": {
+      "status": "OK",
+      "records": 9328,
+      "daily_records": 70,
+      "earliest": "2025-12-17",
+      "latest": "2026-02-24",
+      "days_span": 69
+    }
+  }
+}
