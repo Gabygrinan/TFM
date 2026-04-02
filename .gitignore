@@ -29,10 +29,6 @@ build/
 .DS_Store
 Thumbs.db
 
-# Datos (ajusta según necesidades)
-data/raw/
-data/processed/
-
 # Variables de entorno
 .env
 
