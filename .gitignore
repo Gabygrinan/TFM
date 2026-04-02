@@ -1,0 +1,41 @@
+# Entornos virtuales
+venv/
+env/
+.env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Datos (ajusta según necesidades)
+data/raw/
+data/processed/
+
+# Variables de entorno
+.env
+
+# Logs
+*.log
+logs/
